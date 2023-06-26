@@ -1,6 +1,7 @@
 body {
   background-color: #3791c9;
   font-family: sans-serif;
+  line-height: 1.4;
 }
 
 h1,
@@ -12,4 +13,8 @@ h3 {
 a {
   color: #f9f871;
   text-decoration: none;
+}
+
+.section-heading {
+  font-size: 1.5em;
 }
