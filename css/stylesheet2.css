@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3791c9;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+.image-me {
+  border: 3px solid black;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.navigation {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-left: 80px;
+}
+
+.section-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.education-content,
+.experience-content,
+.skills-content {
+  margin-bottom: 50px;
+}
+
+.qualification-header,
+.job-header {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.qualification1,
+.job1 {
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color: #a9f389;
+}
+
+a {
+  font-weight: bold;
+  color: #f9f871;
+  text-decoration: none;
+}
+
+.section-heading {
+  font-size: 1.5em;
+}
+
+footer,
+header {
+  background-color: #00bdc2;
+  border: 2px solid black;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
