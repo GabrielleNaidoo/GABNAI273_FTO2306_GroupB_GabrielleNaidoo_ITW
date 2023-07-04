@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3791c9;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+.image-me {
+  border: 3px solid black;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-left: 100px;
+}
+
+.section-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.education-content,
+.experience-content,
+.skills-content {
+  margin-bottom: 50px;
+}
+
+.qualification-header,
+.job-header {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.qualification1,
+.job1 {
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color: #a9f389;
+}
+
+a {
+  font-weight: bold;
+  color: #f9f871;
+  text-decoration: none;
+}
+
+.section-heading {
+  font-size: 1.5em;
+}
+
+footer,
+header {
+  background-color: #00bdc2;
+  border: 2px solid black;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+footer {
+  margin-bottom: 20px;
+  display: flex;
+  padding: 10px;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  background-color: #a9f389;
+  border: 2px solid black;
+  flex: 2;
+}
+
+.contact-detail-section {
+  flex: 1;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 50%;
+  margin-left: 30%;
+}
+option {
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  margin-left: 50%;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
