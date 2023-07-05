@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3791c9;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.hero-section {
+  display: flex;
+  background: #f9f871 url("/images/background-medium.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+  height: 100vh;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 5%;
+}
+
+.image-me {
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-top: 20%;
+  margin-bottom: 25px;
+  height: 70%;
+  width: 70%;
+}
+
+.intro-content-container {
+  flex: 2;
+}
+
+.intro-content {
+  margin-top: 30%;
+  margin-left: 10%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.intro-content p {
+  color: #484848;
+}
+
+.navigation {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-left: 100px;
+}
+
+.section-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.education-content,
+.experience-content,
+.skills-content {
+  margin-bottom: 50px;
+}
+
+.qualification-header,
+.job-header {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.qualification1,
+.job1 {
+  margin-bottom: 10px;
+}
+
+h2,
+h3 {
+  color: #a9f389;
+}
+h1 {
+  color: #1aa6c2;
+}
+
+a {
+  font-weight: bold;
+  color: #f9f871;
+  text-decoration: none;
+}
+
+.section-heading {
+  font-size: 1.5em;
+}
+
+footer {
+  display: flex;
+  background-color: #00bdc2;
+  border: 2px solid black;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  background-color: #a9f389;
+  border: 2px solid black;
+  flex: 2;
+}
+
+.contact-detail-section {
+  flex: 1;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 50%;
+  margin-left: 30%;
+}
+option {
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  margin-left: 50%;
+}
+
+input:invalid,
+select:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid,
+input:focus:invalid {
+  box-shadow: none;
+}
