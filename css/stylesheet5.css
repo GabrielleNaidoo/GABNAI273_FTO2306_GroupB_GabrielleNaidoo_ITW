@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3791c9;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.hero-section {
+  display: flex;
+  background: #f9f871 url("/images/background-medium.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 5%;
+  width: 100%;
+}
+
+.image-me {
+  border-radius: 10px;
+  border: 2px inset black;
+  margin-top: 20%;
+  margin-bottom: 25px;
+  height: 70%;
+  width: 70%;
+}
+
+.intro-content-container {
+  flex: 2;
+}
+
+.intro-content {
+  margin-top: 30%;
+  margin-left: 10%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.intro-content p {
+  color: #484848;
+}
+
+.navigation {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-left: 80px;
+}
+
+.section-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.education-content,
+.experience-content,
+.skills-content {
+  margin-bottom: 50px;
+}
+
+.qualification-header,
+.job-header {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.qualification1,
+.job1 {
+  margin-bottom: 10px;
+}
+
+h2,
+h3 {
+  color: #a9f389;
+}
+
+h1 {
+  color: #1aa6c2;
+}
+
+a {
+  font-weight: bold;
+  color: #f9f871;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  background-color: #00bdc2;
+  border: 2px solid black;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  background-color: #a9f389;
+  border: 2px solid black;
+  flex: 2;
+}
+
+.contact-detail-section {
+  flex: 1;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 50%;
+  margin-left: 30%;
+}
+option {
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  margin-left: 50%;
+}
+
+input:invalid,
+select:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid,
+input:focus:invalid {
+  box-shadow: none;
+}
+
+/* Media queries: */
+
+/* For tablet design:(max-width:1024px) */
+
+@media only screen and (max-width: 1024px) {
+  .image-me {
+    height: 80%;
+    width: 80%;
+  }
+
+  .intro-content-container {
+    margin-top: 25px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .intro-paragraph {
+    font-size: 0.5em;
+  }
+
+  h3 {
+    font-size: 0.95em;
+  }
+
+  p,
+  li {
+    font-size: 0.73em;
+  }
+
+  .section-heading {
+    font-size: 1.45rem;
+  }
+
+  section {
+    padding-left: 40px;
+  }
+
+  li:a {
+    font-size: 1em;
+  }
+
+  footer {
+    display: block;
+    border: none;
+  }
+  .contact-details-section {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 50%;
+  }
+  .form-container {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .hero-section {
+    background: #f9f871 url("/images/background-medium.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+  }
+
+  h1 {
+    font-size: 1em;
+    margin-left: -5px;
+  }
+
+  .intro-content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+  }
+
+  .intro-paragraph {
+    margin-top: 10px;
+    font-size: 0.4em;
+  }
+
+  .image-container {
+    margin-top: 5%;
+    display: flex;
+  }
+
+  .image-me {
+    width: 80%;
+    height: 35%;
+    margin-left: 25%;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    align-self: center;
+  }
+
+  section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h3 {
+    font-size: 0.8em;
+  }
+
+  p,
+  li {
+    font-size: 0.5em;
+  }
+
+  .section-heading {
+    font-size: 1.1rem;
+  }
+
+  li:a {
+    font-size: 0.95em;
+  }
+
+  footer {
+    display: block;
+    border: none;
+  }
+  .contact-link {
+    font-size: 0.7em;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  select,
+  option,
+  input,
+  textarea {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  label {
+    font-size: 0.6em;
+    display: inline;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .submit-btn {
+    margin-left: 35%;
+  }
+
+  .navigation {
+    margin-bottom: -8px;
+    margin-top: -15px;
+  }
+
+  #education,
+  #experience {
+    margin-bottom: -15px;
+  }
+
+  #contact-details {
+    margin-bottom: -1px;
+  }
+}
+
+@media only screen and (max-width: 347px) {
+  .image-container {
+    margin-top: 10%;
+    display: block;
+  }
+
+  .image-me {
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 10%;
+  }
+
+  .hero-section {
+    display: inline-block;
+    width: 100%;
+  }
+}
