@@ -221,7 +221,9 @@ input:focus:invalid {
   }
 }
 
-@media only screen and (max-width: 769px) {
+/* Tablet: */
+
+@media only screen and (max-width: 900px) {
   .hero-section {
     background: #f9f871 url("/images/background-medium.jpg");
     background-repeat: no-repeat;
@@ -234,7 +236,7 @@ input:focus:invalid {
   }
 
   h1 {
-    font-size: 1em;
+    font-size: 1.6em;
     margin-left: -5px;
   }
 
@@ -244,9 +246,13 @@ input:focus:invalid {
     margin-left: 10%;
   }
 
+  .intro-content h1 {
+    font-size: 1.2em;
+  }
+
   .intro-paragraph {
     margin-top: 10px;
-    font-size: 0.4em;
+    font-size: 0.6em;
   }
 
   .image-container {
@@ -269,12 +275,12 @@ input:focus:invalid {
   }
 
   h3 {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   p,
   li {
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
 
   .section-heading {
@@ -282,7 +288,7 @@ input:focus:invalid {
   }
 
   li:a {
-    font-size: 0.95em;
+    font-size: 1em;
   }
 
   footer {
@@ -331,7 +337,8 @@ input:focus:invalid {
   }
 }
 
-@media only screen and (max-width: 347px) {
+/* Mobile: */
+@media only screen and (max-width: 600px) {
   .image-container {
     margin-top: 10%;
     display: block;
@@ -346,5 +353,25 @@ input:focus:invalid {
   .hero-section {
     display: inline-block;
     width: 100%;
+  }
+
+  .intro-content h1 {
+    font-size: 0.8em;
+  }
+  p,
+  li {
+    font-size: 0.5em;
+  }
+
+  li a {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 0.6em;
+  }
+
+  .section-heading {
+    font-size: 0.8em;
   }
 }
